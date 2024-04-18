@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CAF653A2BC9059500D70CE4 /* RecordItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65392BC9059500D70CE4 /* RecordItApp.swift */; };
+		3CAF653C2BC9059500D70CE4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF653B2BC9059500D70CE4 /* ContentView.swift */; };
+		3CAF653E2BC9059700D70CE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF653D2BC9059700D70CE4 /* Assets.xcassets */; };
+		3CAF65412BC9059700D70CE4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CAF65402BC9059700D70CE4 /* Preview Assets.xcassets */; };
+		3CAF654B2BC9059700D70CE4 /* RecordItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF654A2BC9059700D70CE4 /* RecordItTests.swift */; };
+		3CAF65552BC9059700D70CE4 /* RecordItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65542BC9059700D70CE4 /* RecordItUITests.swift */; };
+		3CAF65572BC9059700D70CE4 /* RecordItUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65562BC9059700D70CE4 /* RecordItUITestsLaunchTests.swift */; };
+		3CAF65662BC90F3000D70CE4 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65652BC90F3000D70CE4 /* ProfileView.swift */; };
+		3CAF65682BC9218000D70CE4 /* MyInstrumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65672BC9218000D70CE4 /* MyInstrumentView.swift */; };
+		3CAF656A2BCA732B00D70CE4 /* InstrumentRegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65692BCA732B00D70CE4 /* InstrumentRegistrationView.swift */; };
+		3CAF656E2BCAC3F600D70CE4 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF656D2BCAC3F600D70CE4 /* CalendarView.swift */; };
+		3CAF65712BCB9D9F00D70CE4 /* DateValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65702BCB9D9F00D70CE4 /* DateValue.swift */; };
+		3CAF65F22BCC5ED400D70CE4 /* AudioRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65F12BCC5ED400D70CE4 /* AudioRecorder.swift */; };
+		3CAF65F42BCC5EF100D70CE4 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65F32BCC5EF100D70CE4 /* AudioPlayer.swift */; };
+		3CAF65F62BCC5F0100D70CE4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65F52BCC5F0100D70CE4 /* Extensions.swift */; };
+		3CAF65F82BCC5F1400D70CE4 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65F72BCC5F1400D70CE4 /* Helper.swift */; };
+		3CAF65FA2BCC5F5600D70CE4 /* RecordingDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65F92BCC5F5600D70CE4 /* RecordingDataModel.swift */; };
+		3CAF65FC2BCC602200D70CE4 /* RecordingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAF65FB2BCC602200D70CE4 /* RecordingList.swift */; };
+		3CB62B092BCE1360002A01DC /* MyRecordingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB62B082BCE1360002A01DC /* MyRecordingList.swift */; };
+		3CB62B412BCF9E46002A01DC /* InstrumentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB62B402BCF9E46002A01DC /* InstrumentModel.swift */; };
+		3CB62B432BCF9FAC002A01DC /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB62B422BCF9FAC002A01DC /* FrameView.swift */; };
+		3CB62B452BCFA07B002A01DC /* FrameHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB62B442BCFA07B002A01DC /* FrameHandler.swift */; };
+		3CB62B472BCFA71B002A01DC /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB62B462BCFA71B002A01DC /* CameraView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CAF65472BC9059700D70CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAF652E2BC9059500D70CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAF65352BC9059500D70CE4;
+			remoteInfo = RecordIt;
+		};
+		3CAF65512BC9059700D70CE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CAF652E2BC9059500D70CE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CAF65352BC9059500D70CE4;
+			remoteInfo = RecordIt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CAF65362BC9059500D70CE4 /* RecordIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAF65392BC9059500D70CE4 /* RecordItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordItApp.swift; sourceTree = "<group>"; };
+		3CAF653B2BC9059500D70CE4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3CAF653D2BC9059700D70CE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CAF65402BC9059700D70CE4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3CAF65462BC9059700D70CE4 /* RecordItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAF654A2BC9059700D70CE4 /* RecordItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordItTests.swift; sourceTree = "<group>"; };
+		3CAF65502BC9059700D70CE4 /* RecordItUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordItUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAF65542BC9059700D70CE4 /* RecordItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordItUITests.swift; sourceTree = "<group>"; };
+		3CAF65562BC9059700D70CE4 /* RecordItUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordItUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3CAF65652BC90F3000D70CE4 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		3CAF65672BC9218000D70CE4 /* MyInstrumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInstrumentView.swift; sourceTree = "<group>"; };
+		3CAF65692BCA732B00D70CE4 /* InstrumentRegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentRegistrationView.swift; sourceTree = "<group>"; };
+		3CAF656D2BCAC3F600D70CE4 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		3CAF65702BCB9D9F00D70CE4 /* DateValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateValue.swift; sourceTree = "<group>"; };
+		3CAF65F12BCC5ED400D70CE4 /* AudioRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioRecorder.swift; sourceTree = "<group>"; };
+		3CAF65F32BCC5EF100D70CE4 /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		3CAF65F52BCC5F0100D70CE4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3CAF65F72BCC5F1400D70CE4 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		3CAF65F92BCC5F5600D70CE4 /* RecordingDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingDataModel.swift; sourceTree = "<group>"; };
+		3CAF65FB2BCC602200D70CE4 /* RecordingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordingList.swift; sourceTree = "<group>"; };
+		3CB62B082BCE1360002A01DC /* MyRecordingList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRecordingList.swift; sourceTree = "<group>"; };
+		3CB62B402BCF9E46002A01DC /* InstrumentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentModel.swift; sourceTree = "<group>"; };
+		3CB62B422BCF9FAC002A01DC /* FrameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameView.swift; sourceTree = "<group>"; };
+		3CB62B442BCFA07B002A01DC /* FrameHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameHandler.swift; sourceTree = "<group>"; };
+		3CB62B462BCFA71B002A01DC /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CAF65332BC9059500D70CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAF65432BC9059700D70CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAF654D2BC9059700D70CE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAF652D2BC9059500D70CE4 = {
+			isa = PBXGroup;
+			children = (
+				3CAF65382BC9059500D70CE4 /* RecordIt */,
+				3CAF65492BC9059700D70CE4 /* RecordItTests */,
+				3CAF65532BC9059700D70CE4 /* RecordItUITests */,
+				3CAF65372BC9059500D70CE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CAF65372BC9059500D70CE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF65362BC9059500D70CE4 /* RecordIt.app */,
+				3CAF65462BC9059700D70CE4 /* RecordItTests.xctest */,
+				3CAF65502BC9059700D70CE4 /* RecordItUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CAF65382BC9059500D70CE4 /* RecordIt */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF65F02BCC5EA500D70CE4 /* Record */,
+				3CAF656F2BCB9D8E00D70CE4 /* Model */,
+				3CAF65392BC9059500D70CE4 /* RecordItApp.swift */,
+				3CAF653B2BC9059500D70CE4 /* ContentView.swift */,
+				3CAF653D2BC9059700D70CE4 /* Assets.xcassets */,
+				3CAF65652BC90F3000D70CE4 /* ProfileView.swift */,
+				3CAF65672BC9218000D70CE4 /* MyInstrumentView.swift */,
+				3CAF65692BCA732B00D70CE4 /* InstrumentRegistrationView.swift */,
+				3CAF653F2BC9059700D70CE4 /* Preview Content */,
+				3CAF656D2BCAC3F600D70CE4 /* CalendarView.swift */,
+				3CB62B482BCFA844002A01DC /* CameraTest */,
+			);
+			path = RecordIt;
+			sourceTree = "<group>";
+		};
+		3CAF653F2BC9059700D70CE4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF65402BC9059700D70CE4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3CAF65492BC9059700D70CE4 /* RecordItTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF654A2BC9059700D70CE4 /* RecordItTests.swift */,
+			);
+			path = RecordItTests;
+			sourceTree = "<group>";
+		};
+		3CAF65532BC9059700D70CE4 /* RecordItUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF65542BC9059700D70CE4 /* RecordItUITests.swift */,
+				3CAF65562BC9059700D70CE4 /* RecordItUITestsLaunchTests.swift */,
+			);
+			path = RecordItUITests;
+			sourceTree = "<group>";
+		};
+		3CAF656F2BCB9D8E00D70CE4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF65702BCB9D9F00D70CE4 /* DateValue.swift */,
+				3CAF65F92BCC5F5600D70CE4 /* RecordingDataModel.swift */,
+				3CB62B402BCF9E46002A01DC /* InstrumentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CAF65F02BCC5EA500D70CE4 /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				3CAF65F12BCC5ED400D70CE4 /* AudioRecorder.swift */,
+				3CAF65F32BCC5EF100D70CE4 /* AudioPlayer.swift */,
+				3CAF65F52BCC5F0100D70CE4 /* Extensions.swift */,
+				3CAF65F72BCC5F1400D70CE4 /* Helper.swift */,
+				3CAF65FB2BCC602200D70CE4 /* RecordingList.swift */,
+				3CB62B082BCE1360002A01DC /* MyRecordingList.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		3CB62B482BCFA844002A01DC /* CameraTest */ = {
+			isa = PBXGroup;
+			children = (
+				3CB62B422BCF9FAC002A01DC /* FrameView.swift */,
+				3CB62B442BCFA07B002A01DC /* FrameHandler.swift */,
+				3CB62B462BCFA71B002A01DC /* CameraView.swift */,
+			);
+			path = CameraTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CAF65352BC9059500D70CE4 /* RecordIt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAF655A2BC9059700D70CE4 /* Build configuration list for PBXNativeTarget "RecordIt" */;
+			buildPhases = (
+				3CAF65322BC9059500D70CE4 /* Sources */,
+				3CAF65332BC9059500D70CE4 /* Frameworks */,
+				3CAF65342BC9059500D70CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecordIt;
+			productName = RecordIt;
+			productReference = 3CAF65362BC9059500D70CE4 /* RecordIt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CAF65452BC9059700D70CE4 /* RecordItTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAF655D2BC9059700D70CE4 /* Build configuration list for PBXNativeTarget "RecordItTests" */;
+			buildPhases = (
+				3CAF65422BC9059700D70CE4 /* Sources */,
+				3CAF65432BC9059700D70CE4 /* Frameworks */,
+				3CAF65442BC9059700D70CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAF65482BC9059700D70CE4 /* PBXTargetDependency */,
+			);
+			name = RecordItTests;
+			productName = RecordItTests;
+			productReference = 3CAF65462BC9059700D70CE4 /* RecordItTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CAF654F2BC9059700D70CE4 /* RecordItUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CAF65602BC9059700D70CE4 /* Build configuration list for PBXNativeTarget "RecordItUITests" */;
+			buildPhases = (
+				3CAF654C2BC9059700D70CE4 /* Sources */,
+				3CAF654D2BC9059700D70CE4 /* Frameworks */,
+				3CAF654E2BC9059700D70CE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CAF65522BC9059700D70CE4 /* PBXTargetDependency */,
+			);
+			name = RecordItUITests;
+			productName = RecordItUITests;
+			productReference = 3CAF65502BC9059700D70CE4 /* RecordItUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CAF652E2BC9059500D70CE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					3CAF65352BC9059500D70CE4 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					3CAF65452BC9059700D70CE4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3CAF65352BC9059500D70CE4;
+					};
+					3CAF654F2BC9059700D70CE4 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 3CAF65352BC9059500D70CE4;
+					};
+				};
+			};
+			buildConfigurationList = 3CAF65312BC9059500D70CE4 /* Build configuration list for PBXProject "RecordIt" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CAF652D2BC9059500D70CE4;
+			productRefGroup = 3CAF65372BC9059500D70CE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CAF65352BC9059500D70CE4 /* RecordIt */,
+				3CAF65452BC9059700D70CE4 /* RecordItTests */,
+				3CAF654F2BC9059700D70CE4 /* RecordItUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CAF65342BC9059500D70CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAF65412BC9059700D70CE4 /* Preview Assets.xcassets in Resources */,
+				3CAF653E2BC9059700D70CE4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAF65442BC9059700D70CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAF654E2BC9059700D70CE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CAF65322BC9059500D70CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CB62B452BCFA07B002A01DC /* FrameHandler.swift in Sources */,
+				3CB62B432BCF9FAC002A01DC /* FrameView.swift in Sources */,
+				3CAF65F82BCC5F1400D70CE4 /* Helper.swift in Sources */,
+				3CB62B472BCFA71B002A01DC /* CameraView.swift in Sources */,
+				3CAF653C2BC9059500D70CE4 /* ContentView.swift in Sources */,
+				3CAF65662BC90F3000D70CE4 /* ProfileView.swift in Sources */,
+				3CB62B092BCE1360002A01DC /* MyRecordingList.swift in Sources */,
+				3CAF65FA2BCC5F5600D70CE4 /* RecordingDataModel.swift in Sources */,
+				3CAF65F42BCC5EF100D70CE4 /* AudioPlayer.swift in Sources */,
+				3CAF65FC2BCC602200D70CE4 /* RecordingList.swift in Sources */,
+				3CAF656E2BCAC3F600D70CE4 /* CalendarView.swift in Sources */,
+				3CB62B412BCF9E46002A01DC /* InstrumentModel.swift in Sources */,
+				3CAF653A2BC9059500D70CE4 /* RecordItApp.swift in Sources */,
+				3CAF65F62BCC5F0100D70CE4 /* Extensions.swift in Sources */,
+				3CAF656A2BCA732B00D70CE4 /* InstrumentRegistrationView.swift in Sources */,
+				3CAF65712BCB9D9F00D70CE4 /* DateValue.swift in Sources */,
+				3CAF65F22BCC5ED400D70CE4 /* AudioRecorder.swift in Sources */,
+				3CAF65682BC9218000D70CE4 /* MyInstrumentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAF65422BC9059700D70CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAF654B2BC9059700D70CE4 /* RecordItTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CAF654C2BC9059700D70CE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CAF65572BC9059700D70CE4 /* RecordItUITestsLaunchTests.swift in Sources */,
+				3CAF65552BC9059700D70CE4 /* RecordItUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CAF65482BC9059700D70CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAF65352BC9059500D70CE4 /* RecordIt */;
+			targetProxy = 3CAF65472BC9059700D70CE4 /* PBXContainerItemProxy */;
+		};
+		3CAF65522BC9059700D70CE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CAF65352BC9059500D70CE4 /* RecordIt */;
+			targetProxy = 3CAF65512BC9059700D70CE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3CAF65582BC9059700D70CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CAF65592BC9059700D70CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CAF655B2BC9059700D70CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecordIt/Preview Content\"";
+				DEVELOPMENT_TEAM = C5ZC74W3Z4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 촬영을 허용하시겠습니까?";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "음성 녹음을 허용하시겠습니까?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.RecordIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CAF655C2BC9059700D70CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RecordIt/Preview Content\"";
+				DEVELOPMENT_TEAM = C5ZC74W3Z4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "카메라 촬영을 허용하시겠습니까?";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "음성 녹음을 허용하시겠습니까?";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.RecordIt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CAF655E2BC9059700D70CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5ZC74W3Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.RecordItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecordIt";
+			};
+			name = Debug;
+		};
+		3CAF655F2BC9059700D70CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5ZC74W3Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.RecordItTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecordIt.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RecordIt";
+			};
+			name = Release;
+		};
+		3CAF65612BC9059700D70CE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5ZC74W3Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.RecordItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordIt;
+			};
+			name = Debug;
+		};
+		3CAF65622BC9059700D70CE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C5ZC74W3Z4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = private.RecordItUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RecordIt;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CAF65312BC9059500D70CE4 /* Build configuration list for PBXProject "RecordIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAF65582BC9059700D70CE4 /* Debug */,
+				3CAF65592BC9059700D70CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAF655A2BC9059700D70CE4 /* Build configuration list for PBXNativeTarget "RecordIt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAF655B2BC9059700D70CE4 /* Debug */,
+				3CAF655C2BC9059700D70CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAF655D2BC9059700D70CE4 /* Build configuration list for PBXNativeTarget "RecordItTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAF655E2BC9059700D70CE4 /* Debug */,
+				3CAF655F2BC9059700D70CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CAF65602BC9059700D70CE4 /* Build configuration list for PBXNativeTarget "RecordItUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CAF65612BC9059700D70CE4 /* Debug */,
+				3CAF65622BC9059700D70CE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CAF652E2BC9059500D70CE4 /* Project object */;
+}
