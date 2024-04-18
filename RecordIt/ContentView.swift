@@ -147,7 +147,7 @@ struct TitleView: View {
             Image("RecordItLogo")
                 .resizable()
                 .scaledToFit()
-                .frame(height: 32)
+                .frame(height: 30)
             Spacer()
             NavigationLink {
                 ProfileView()
